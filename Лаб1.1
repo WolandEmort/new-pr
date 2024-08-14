@@ -1,0 +1,13 @@
+a = float(input('Введіть a: '))
+b = float(input('Введіть b: '))
+
+if a > 0 and b > 0:
+    if a > b:
+        x = a / b + 31
+    elif a == b:
+        x = -25
+    else:
+        x = (a * 5 - 1) / a
+    print(x)
+else:
+    print('Введіть допустимі значення a & b')
